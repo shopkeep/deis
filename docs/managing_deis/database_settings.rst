@@ -31,6 +31,8 @@ setting                                  description
 /deis/database/user                      database user (default: deis)
 /deis/database/password                  database password (default: changeme123)
 /deis/database/name                      database name (default: deis)
+/deis/database/replicationKey            SSH private key to use for replication (default: automatically generated)
+/deis/database/replicationPubKey         SSH public key to use for replication (default: automatically generated)
 ===========================              ====================================================================================
 
 Settings used by database
