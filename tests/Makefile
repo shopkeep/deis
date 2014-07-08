@@ -1,6 +1,12 @@
-test:
+test: test-unit test-integration
+
+test-integration:
 	GOPATH=$(CURDIR)/_vendor:$(GOPATH) \
 	go test -tags integration -timeout 30m -v ./...
+
+test-unit:
+	GOPATH=$(CURDIR)/_vendor:$(GOPATH) \
+    go test ./unit
 
 test-smoke:
 	GOPATH=$(CURDIR)/_vendor:$(GOPATH) \
