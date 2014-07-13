@@ -12,6 +12,7 @@ import (
 const (
 	COMMIT_SUBJECT_MAX_LINE_LENGTH int = 50
 	COMMIT_MESSAGE_MAX_LINE_LENGTH int = 72
+	POLICY_DATE string = "2014-07-11"
 )
 
 type CommitMessage struct {
@@ -36,7 +37,7 @@ came from http://blog.lost-theory.org/post/how-to-parse-git-log-output/
 func TestCommitsAdhereToCommitStyleGuide(t *testing.T) {
 	var validCommitSubject = regexp.MustCompile(`^feat\(.+\): [0-9a-z].+[^.]$|^fix\(.+\): [0-9a-z].+[^.]$|^docs\(.+\): [0-9a-z].+[^.]$|^style\(.+\): [0-9a-z].+[^.]$|^ref\(.+\): [0-9a-z].+[^.]$|^test\(.+\): [0-9a-z].+[^.]$|^chore\(.+\): [0-9a-z].+[^.]$`)
 
-	cmd := exec.Command("git", "log", "--no-merges", "--format=%s%n%b%x1e", "--after", "2014-07-11")
+	cmd := exec.Command("git", "log", "--no-merges", "--format=%s%n%b%x1e", "--after", POLICY_DATE)
 	out, err := cmd.Output()
 	if err != nil {
 		t.Fatalf(err.Error())
