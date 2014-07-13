@@ -6,7 +6,7 @@ test-integration:
 
 test-unit:
 	GOPATH=$(CURDIR)/_vendor:$(GOPATH) \
-    go test ./unit
+	go test ./unit
 
 test-smoke:
 	GOPATH=$(CURDIR)/_vendor:$(GOPATH) \
