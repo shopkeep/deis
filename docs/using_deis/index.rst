@@ -4,7 +4,7 @@
 .. _using_deis:
 
 Using Deis
-===============
+==========
 
 :Release: |version|
 :Date: |today|
@@ -12,10 +12,10 @@ Using Deis
 .. toctree::
 
 
-    install-client
-    register-user
-    deploy-application
-    using-buildpacks
-    using-dockerfiles
-    config-application
-    manage-application
+    overview
+    client_setup
+    deploy_application
+    using_buildpacks
+    using_dockerfiles
+    config_application
+    manage_application
