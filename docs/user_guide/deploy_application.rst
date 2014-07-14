@@ -19,7 +19,7 @@ order to be scaled horizontally, applications must follow Heroku's
 
 For example, if your application persists state to the local filesystem -- common with
 content management systems like Wordpress and Drupal -- it cannot be scaled horizonally
-using :ref:`deis scale <deis_apps>`.
+using :ref:`deis scale <deis_ps>`.
 
 Fortunately, most modern applications feature a stateless application tier that can scale
 horizontally inside Deis.
