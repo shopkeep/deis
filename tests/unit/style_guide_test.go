@@ -10,9 +10,9 @@ import (
 )
 
 const (
-	COMMIT_SUBJECT_MAX_LINE_LENGTH int = 50
-	COMMIT_MESSAGE_MAX_LINE_LENGTH int = 72
-	POLICY_DATE string = "2014-07-11"
+	COMMIT_SUBJECT_MAX_LINE_LENGTH int    = 50
+	COMMIT_MESSAGE_MAX_LINE_LENGTH int    = 72
+	POLICY_DATE                    string = "2014-07-11"
 )
 
 type CommitMessage struct {
