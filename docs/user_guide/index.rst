@@ -1,9 +1,9 @@
-:title: Using Deis
+:title: User Guide
 :description: Step-by-step guide for developers using Deis to deploy and manage applications.
 
-.. _using_deis:
+.. _user_guide:
 
-Using Deis
+User Guide
 ==========
 
 :Release: |version|

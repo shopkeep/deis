@@ -119,7 +119,7 @@ services.
 
 See Also
 --------
-* :ref:`Using Deis <using_deis>`
+* :ref:`user_guide`
 * :ref:`Managing Deis <managing_deis>`
 * The `Twelve-Factor App`_
 
