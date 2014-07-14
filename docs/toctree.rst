@@ -11,7 +11,7 @@ This documentation has the following resources:
 .. toctree::
 
    index
-   understanding_deis/index
+   about/index
    installation/index
    user_guide/index
    operations_guide/index
