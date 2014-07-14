@@ -12,7 +12,7 @@ This documentation has the following resources:
 
    index
    understanding_deis/index
-   installing_deis/index
+   installation/index
    using_deis/index
    managing_deis/index
    contributing/index
