@@ -196,7 +196,8 @@ Format of the Commit Message
 
 Any line of the commit message cannot be longer than 72 characters, with the subject
 line limited to 50 characters. This allows the message to be easier to read on github
-as well as in various git tools.
+as well as in various git tools. Lines of source code prefixed with four spaces are exempt
+from this rule.
 
 Subject Line
 """"""""""""

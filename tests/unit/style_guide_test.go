@@ -55,6 +55,10 @@ func TestCommitsAdhereToCommitStyleGuide(t *testing.T) {
 				commit.Summary()))
 		}
 		for _, line := range strings.Split(commit.Message, "\n") {
+			// a line of source code can be as long as it wants to be
+			if strings.HasPrefix(line, "    ") {
+				continue
+			}
 			if len(line) > COMMIT_MESSAGE_MAX_LINE_LENGTH {
 				t.Errorf(fmt.Sprintf(
 					"lines cannot be longer than %v characters in length: %s",
