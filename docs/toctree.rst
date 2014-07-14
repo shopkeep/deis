@@ -14,7 +14,7 @@ This documentation has the following resources:
    understanding_deis/index
    installation/index
    user_guide/index
-   managing_deis/index
+   operations_guide/index
    contributing/index
    reference/index
    faq

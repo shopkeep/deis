@@ -120,7 +120,7 @@ services.
 See Also
 --------
 * :ref:`user_guide`
-* :ref:`Managing Deis <managing_deis>`
+* :ref:`operations_guide`
 * The `Twelve-Factor App`_
 
 
