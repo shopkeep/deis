@@ -24,7 +24,7 @@ setting                                  description
 ===========================              ====================================================================================
 /deis/database/$HOST/host                IP address of the host running this database (there can be multiple databases)
 /deis/database/$HOST/port                port used by this database service (there can be multiple databases) (default: 5432)
-/deis/database/master                    host:port of the database instance currently acting as master
+/deis/database/master                    host of the database instance currently acting as master
 /deis/database/engine                    database engine (default: postgresql_psycopg2)
 /deis/database/adminUser                 database admin user (default: postgres)
 /deis/database/adminPass                 database admin password (default: changeme123)

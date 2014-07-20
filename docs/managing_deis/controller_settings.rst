@@ -42,7 +42,7 @@ setting                                   description
 /deis/controller/webEnabled               enable controller web UI (default: false)
 /deis/cache/host                          host of the cache component (set by cache)
 /deis/cache/port                          port of the cache component (set by cache)
-/deis/database/master                     host:port of the database component acting as master (set by database)
+/deis/database/master                     host of the database component acting as master (set by database)
 /deis/database/engine                     database engine (set by database)
 /deis/database/name                       database name (set by database)
 /deis/database/user                       database user (set by database)
